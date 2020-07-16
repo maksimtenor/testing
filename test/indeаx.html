@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Glide.js Content Slider Demo - Template Monster</title>
+  <meta name="author" content="Jake Rocheleau">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="shortcut icon" href="http://www.templatemonster.com/favicon.ico">
+  <link rel="icon" href="http://www.templatemonster.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.glide.min.js"></script>
+</head>
+
+<body>
+  <div id="w">
+    <div class="slider">
+      <ul class="slides">
+        <li class="slide">
+          <figure>
+            <div class="container-my">
+              <div class="svg__block">
+                <img class="svg__img" src="img/left.png" width="20" height="115">
+                <span>
+                  <h1>Удаление папилом</h1>
+                  <h2>оплати единоразово 7 процедур -</h2>
+                  <h3>получи скидку<span>50%</span></h3>
+                </span>
+                <img class="svg__img" src="img/right.png" width="20" height="115">
+              </div>
+              <img class="girl" src="img/girl.png">
+              <img class="flower" src="img/flower.png">
+            </div>
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+            
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+          
+          </figure>
+        </li>
+      </ul>
+    </div><!-- @end .slider -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('.slider').glide({
+    autoplay: 3500,
+    hoverpause: true, // set to false for nonstop rotate
+    arrowRightText: '&rarr;',
+    arrowLeftText: '&larr;'
+  });
+});
+</script>
+</body>
+</html>
